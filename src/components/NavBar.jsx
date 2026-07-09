@@ -67,22 +67,13 @@ const NavBar = () => {
               href="/"
               style={{ color: "#FFFFFF" }}
             >
-              Home
-            </a>
-
-
-            <a
-              className="nav-link fw-semibold mx-2"
-              href="/addstudent"
-              style={{ color: "#FFFFFF" }}
-            >
               Add Student
             </a>
 
 
             <a
               className="nav-link fw-semibold mx-2"
-              href="/students"
+              href="/search"
               style={{ color: "#FFFFFF" }}
             >
               Search Student
@@ -91,7 +82,7 @@ const NavBar = () => {
 
             <a
               className="nav-link fw-semibold mx-2"
-              href="/attendance"
+              href="/delete"
               style={{ color: "#FFFFFF" }}
             >
               Delete Student
