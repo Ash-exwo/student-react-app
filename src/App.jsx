@@ -7,6 +7,8 @@ import AddStudent from './components/AddStudent'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SearchStudent from './components/SearchStudent'
 import DeleteStudent from './components/DeleteStudent'
+import ViewAllStudents from './components/ViewStudents'
+import ViewStudents from './components/ViewStudents'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +20,7 @@ function App() {
       <Route path='/' element={<AddStudent/>}/>
       <Route path='/search' element={<SearchStudent/>}/>
       <Route path='/delete' element={<DeleteStudent/>}/>
+      <Route path='/records' element={<ViewStudents/>}/>
     </Routes>
     </BrowserRouter>
     </>
