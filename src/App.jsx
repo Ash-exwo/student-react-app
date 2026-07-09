@@ -6,6 +6,7 @@ import './App.css'
 import AddStudent from './components/AddStudent'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SearchStudent from './components/SearchStudent'
+import DeleteStudent from './components/DeleteStudent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
     <Routes>
       <Route path='/' element={<AddStudent/>}/>
       <Route path='/search' element={<SearchStudent/>}/>
+      <Route path='/delete' element={<DeleteStudent/>}/>
     </Routes>
     </BrowserRouter>
     </>

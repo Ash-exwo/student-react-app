@@ -1,17 +1,17 @@
 import React from 'react'
 import NavBar from './NavBar'
 
-const SearchStudent = () => {
+const DeleteStudent = () => {
     return (
         <div>
             <NavBar />
             <div className="container mt-5">
                 <div className="row rounded-4 p-5 border-dark-subtle shadow">
                     <h2 className="fw-bold pb-3 text-center" style={{ color: "#1E3A8A" }}>
-                        Find Student Information
+                        Remove Student Record
                     </h2>
                     <p className="text-muted text-center">
-                        Search and access student details quickly and easily
+                        Delete student information securely from the portal
                     </p>
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="row g-3">
@@ -30,7 +30,7 @@ const SearchStudent = () => {
                                         border: "none",
                                     }}
                                 >
-                                    Search
+                                    Delete
                                 </button>
                             </div>
                         </div>
@@ -41,4 +41,4 @@ const SearchStudent = () => {
     )
 }
 
-export default SearchStudent
+export default DeleteStudent
