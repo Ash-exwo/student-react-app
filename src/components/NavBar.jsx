@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -62,40 +63,40 @@ const NavBar = () => {
           <div className="navbar-nav ms-auto">
 
 
-            <a
+            <Link
               className="nav-link fw-semibold mx-2"
-              href="/"
+              to="/"
               style={{ color: "#FFFFFF" }}
             >
               Add Student
-            </a>
+            </Link>
 
 
-            <a
+            <Link
               className="nav-link fw-semibold mx-2"
-              href="/search"
+              to="/search"
               style={{ color: "#FFFFFF" }}
             >
               Search Student
-            </a>
+            </Link>
 
 
-            <a
+            <Link
               className="nav-link fw-semibold mx-2"
-              href="/delete"
+              to="/delete"
               style={{ color: "#FFFFFF" }}
             >
               Delete Student
-            </a>
+            </Link>
 
 
-            <a
+            <Link
               className="nav-link fw-semibold mx-2"
-              href="/records"
+              to="/records"
               style={{ color: "#FFFFFF" }}
             >
               Students Record
-            </a>
+            </Link>
 
 
           </div>
